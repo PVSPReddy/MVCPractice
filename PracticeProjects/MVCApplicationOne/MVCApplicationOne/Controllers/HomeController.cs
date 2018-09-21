@@ -17,7 +17,7 @@ namespace MVCApplicationOne.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
-            return View();
+            return View("~/Views/Home/About.cshtml");
         }
 
         public ActionResult Contact()
